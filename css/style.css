@@ -1,0 +1,16 @@
+.banner {
+    height: 50vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+
+.banner-content {
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* border: 5px dashed black; */
+}
