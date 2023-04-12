@@ -1,14 +1,33 @@
 
 
+
+
 const profileData = {
-    username: '',
-    email: '',
-    birthDate: '',
-    pfpUrl: '',
-    bio: '',
+    username: 'DawDev',
+    email: 'dawkaprol@gmail.com',
+    birthDate: '07-08-2005',
+    pfpUrl: './img/profile_picture.jpg',
+    bio: 'Lorem Ipusm idrc rn',
     projects: [{}, {}],
-    education: [],
-    skills: [],
-    bannerColor: '',
-    socials: []
+    education: ['VMBO-KADER', 'MBO-4 SOFTWARE DEV'],
+    skills: ['a', 'b', 'c', 'd'],
+    bannerColor: 'red',
+    socials: ['dont-care']
 };
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const bannerElem = document.querySelector('.banner');
+    const usernameElem = document.querySelector('.username');
+    const profileImgElem = document.querySelector('.profile-image');
+    const skillListElem = document.querySelector('.skill-list');
+
+    bannerElem.style.backgroundColor = profileData.bannerColor;
+    profileImgElem.src = profileData.pfpUrl;
+    usernameElem.innerText = profileData.username;
+
+    profileData.skills.forEach((skill) => {
+        skillListElem.innerHTML += `<li class="list-group-item">${skill}</li>`; 
+    });
+
+});
