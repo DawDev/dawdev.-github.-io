@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     usernameElem.innerText = profileData.username;
 
     profileData.skills.forEach((skill) => {
-        skillListElem.innerHTML += `<li class="list-group-item">${skill}</li>`;
+        skillListElem.innerHTML += `<li class="list-group-item">${skill}</li>`; 
     });
 
 });
