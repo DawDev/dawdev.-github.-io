@@ -9,8 +9,17 @@
     width: 30%;
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 25%;
     transform: translateX(-50%);
     text-align: center;
     /* border: 5px dashed black; */
+}
+
+@media screen and (max-width: 750px) {
+    .banner-content {
+        width: 30%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+    }
 }

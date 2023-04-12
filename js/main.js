@@ -20,8 +20,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const bannerElem = document.querySelector('.banner');
     const usernameElem = document.querySelector('.username');
     const profileImgElem = document.querySelector('.profile-image');
-    
+    const skillListElem = document.querySelector('.skill-list');
+
     bannerElem.style.backgroundColor = profileData.bannerColor;
     profileImgElem.src = profileData.pfpUrl;
     usernameElem.innerText = profileData.username;
+
+    profileData.skills.forEach((skill) => {
+        skillListElem.innerHTML += `<li class="list-group-item">${skill}</li>`;
+    });
+
 });
