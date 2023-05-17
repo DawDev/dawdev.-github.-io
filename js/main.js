@@ -6,6 +6,7 @@ const skillListElem = document.querySelector('.skill-list');
 const aboutMe = document.querySelector('.about-me');
 const quoteElement = document.querySelector('.quote');
 const quoteAuthorElement = document.querySelector('.quote-author');
+const emailElem = document.querySelector('.email-elem');
 
 // const profileData = {
 //     username: 'DawDev',
@@ -42,6 +43,7 @@ function addData(profileData) {
     profileImgElem.src = profileData.pfpUrl;
     usernameElem.innerText = profileData.username;
     aboutMe.innerText = profileData.aboutMe;
+    emailElem.innerHTML = profileData.email;
     
     profileData.skills.forEach((skill) => {
         skillListElem.innerHTML += `<li class="list-group-item">${skill}</li>`; 
