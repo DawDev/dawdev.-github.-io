@@ -1,0 +1,10 @@
+{
+    "username": "DawDev",
+    "email": "dawkaprol@gmail.com",
+    "pfpUrl": "./img/profile_picture.jpg",
+    "projects": [{}, {}],
+    "education": ["VMBO-KADER", "MBO-4 SOFTWARE DEV"],
+    "skills": ["Python", "JavaScript", "HTML", "CSS", "Bootstrap", "SQLITE", "Flask", "BottlePy", "Pygame", "GDScript", "C#, C++ and C -basics", "Polish", "English", "Dutch"],
+    "bannerColor": "red",
+    "aboutMe": "My name is Dawid, I'm 17 and currently am going to ROC Mondriaan school, in the direction of MBO4 software development, I have been programming as a hobby for quite some time now and am pretty good at it. As for personal hobbies, programming aside, I like gaming, spend a lot of time watching youtube videos and 'semi'-educating myself (learning random stuff I'll probably never use)."
+}

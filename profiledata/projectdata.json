@@ -1,0 +1,50 @@
+[
+    {
+        "imageURL": "",
+        "title": "Escape Room",
+        "timeMade": "Theme week #1",
+        "description": "Escape room game, made by me, Sulaiman Husain & Kaya Kegel, made using HTML canvas and an own \"engine\".",
+        "url": "https://www.google.com",
+        "ID": 0
+    },
+    {
+        "imageURL": "",
+        "title": "TicTacToe",
+        "timeMade": "2nd period",
+        "description": "Simple TicTacToe game, made it with HTML, CSS and pure JS. We were supposed to work in groups, but everyone worked on their own project. Confoos..",
+        "url": "https://github.com/ROCMondriaanTIN/sd22-project-p02-boter-kaas-en-eieren-DawDev",
+        "ID": 1
+    },
+    {
+        "imageURL": "",
+        "title": "Hoger Lager",
+        "timeMade": "1st period",   
+        "description": "A game where you bet if dice roll higher than a said amount, if you win you get point, otherwise the bank gets them.",
+        "url": "https://www.google.com",
+        "ID": 2
+    },
+    {
+        "imageURL": "",
+        "title": "Bookflix",
+        "timeMade": "Theme week #2",
+        "description": "Netflix for books.. Made using HTML, CSS & JS with a python Flask backend and sqlite3 db.",
+        "url": "https://github.com/ROCMondriaanTIN/sd22-themaweek-2-t1m-DawDev",
+        "ID": 3
+    },
+    {
+        "imageURL": "",
+        "title": "Web Catalogus",
+        "timeMade": "3rd period",
+        "description": "A school project about clothing, simple as that.",
+        "url": "https://github.com/ROCMondriaanTIN/sd22-p03-project-webcatalogus-1m-yasuda",
+        "ID": 4
+    },
+    {
+        "imageURL": "",
+        "title": "Dashboard",
+        "timeMade": "4th period",
+        "description": "A school project about dashboards, simpl- Welp, we're learning chart.js",
+        "url": "https://github.com/ROCMondriaanTIN/sd22-p04-project-dashboard-team-fasuda",
+        "ID": 5
+    }
+]
