@@ -1,0 +1,189 @@
+.game-wrapper {
+    /* De wrapper voor de Tic Tac Toe spel zelf */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-wrapper-invis {
+    /* Een aparte class die de spel zelf onzichtbaar maakt. */
+    filter: opacity(0);
+    display: none;
+}
+
+@keyframes shake {
+    /* De shaking animatie voor de play button */
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+@keyframes roll-up {
+    /*  Een roll up curtain looking animatie */
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes fade-in-view {
+    100% {
+        filter: opacity(1);
+    }
+}
+
+@keyframes fade-out-view {
+    100% {
+        filter: opacity(0);
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.board {
+    /* De spel grid zelf */
+    display: grid;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 200px);
+    gap: 5px;
+    /* width: fit-content; */
+    background-color: rgb(170, 79, 223);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.tile {
+    /* De tiles waarop X of O komt */
+    background-color: hotpink;
+    text-align: center;
+    line-height: 200px;
+    font-size: 200px;
+    font-family: monospace;
+    color: bisque;
+    border-radius: 5px;
+}
+
+.tile:nth-child(odd) {
+    /* Elke 2 tile een andere kleurtje geven */
+    background-color: rgb(238, 128, 188);
+}
+
+.tile.win {
+    /* Bij winnen wordt de kleur beetje anders */
+    filter: brightness(1.5);
+    color:rgb(186, 211, 45)
+}
+
+
+.start-screen-wrapper {
+    /* De start screen zelf */
+    text-align: center;
+}
+
+.welcome {
+    /* De "Welcome to Tic Tac Toe" text */
+    /* padding: 500px 0 0; */
+    width: 75vw;
+    font-family: monospace;
+    font-size: 100px;
+}
+
+.ttt-welcome {
+    /* Tic Tac Toe text on start screen */
+    color: red;
+}
+
+/* .ttt-welcome > span:hover {
+    animation: shake 1s infinite;
+} */
+
+.start-button {
+    margin: 100px auto 0;
+    width: 400px;
+    height: 125px;
+    background-color: lightsalmon;
+    font-size: 55px;
+    line-height: 125px;
+    font-family: monospace;
+    transition: 0.3s;
+}
+
+.play-text {
+    /* text op de start-button */
+    color: red;
+    font-weight: bold;
+}
+
+.start-button:hover {
+    scale: 1.05;
+    filter: brightness(1.1);
+    transition: 0.3s;
+    animation: shake 1s infinite;
+    cursor: pointer;
+}
+
+.roll-up {
+    /* handige class om via js de animaties te starten, dit vind ik beter dan foo.style.animation = ___ */
+    animation: roll-up 2.5s forwards 0.2s;
+}
+
+.fade-in {
+    display: flex;
+    animation: fade-in-view 1s forwards;
+}
+
+.fade-out {
+    animation: fade-out-view 1s forwards;
+}
+
+.tied, .won {
+    /* De win of lose 'containers' */
+    display: none;
+    filter: opacity(0);
+    font-family: monospace;
+    font-size: 80px;
+    text-align: center;
+}
+
+.center-container {
+    /* Een container om alles te centreren */
+    position: relative;
+    height: 100vh;
+}
+
+.won h3, .tied h3 {
+    font-size: 45px;
+}
+
+.center {
+    /* de center class zelf. moet In een center-container gebruikt woorden */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

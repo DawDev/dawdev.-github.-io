@@ -1,0 +1,15 @@
+/* Put yor own CSS code here when needed */
+/* .world-img-bg {
+    background-image: url(/img/world.jpeg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+   
+} */
+
+.body-bg {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/015/232/714/large_2x/bright-colorful-liquid-shapes-trendy-horizontal-3d-poster-abstract-background-with-vibrant-gradient-for-flyer-banner-cover-business-presentation-blue-pink-and-yellow-colors-3d-waves-free-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
