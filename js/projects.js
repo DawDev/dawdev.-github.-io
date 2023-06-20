@@ -1,13 +1,17 @@
 const PROJECT_DATA_URL = '../profiledata/projectdata.json';
+const projectsCardContainer = document.querySelector('.projects-row');
+
 
 function createCard(projectData) {
     const cardHTML = `
-        <div class="card">
-            <img src="${projectData.imageURL}" class="card-img-top" alt="${projectData.title} image">
-            <div class="card-body">
-                <h5 class="card-title">${projectData.title}</h5>
-                <p class="card-text">${projectData.description}</p>
-                <a href="./project.html?id=${projectData.ID}" class="btn btn-primary">Take a closer look!</a>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="${projectData.imageURL}" class="card-img-top" alt="${projectData.title} image">
+                <div class="card-body">
+                    <h5 class="card-title">${projectData.title}</h5>
+                    <p class="card-text">${projectData.description}</p>
+                    <a href="./project.html?id=${projectData.ID}" class="btn btn-primary">Take a closer look!</a>
+                </div>
             </div>
         </div>
     `;
@@ -21,8 +25,8 @@ fetch(PROJECT_DATA_URL)
 
 
 function displayProjects(projectsData) {
-    projectsData.forEach(project => {
+    projectsData.forEach((project, ind) => {
         console.table(project);
-        document.body.innerHTML += createCard(project);
+        projectsCardContainer.innerHTML += createCard(project);
     });
 }
