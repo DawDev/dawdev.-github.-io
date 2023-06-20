@@ -10,7 +10,7 @@ function createCard(projectData) {
                 <div class="card-body">
                     <h5 class="card-title">${projectData.title}</h5>
                     <p class="card-text">${projectData.description}</p>
-                    <a href="./project.html?id=${projectData.ID}" class="btn btn-primary">Take a closer look!</a>
+                    <a href="${projectData.url}" class="btn btn-primary">Take a closer look!</a>
                 </div>
             </div>
         </div>

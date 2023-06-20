@@ -1,6 +1,6 @@
 [
     {
-        "imageURL": "",
+        "imageURL": "./../img/escape_room.jpg",
         "title": "Escape Room",
         "timeMade": "Theme week #1",
         "description": "Escape room game, made by me, Sulaiman Husain & Kaya Kegel, made using HTML canvas and an own \"engine\".",
@@ -8,7 +8,7 @@
         "ID": 0
     },
     {
-        "imageURL": "",
+        "imageURL": "./../img/tictactoe.png",
         "title": "TicTacToe",
         "timeMade": "2nd period",
         "description": "Simple TicTacToe game, made it with HTML, CSS and pure JS. We were supposed to work in groups, but everyone worked on their own project. Confoos..",
@@ -16,7 +16,7 @@
         "ID": 1
     },
     {
-        "imageURL": "",
+        "imageURL": "./../img/higher_lower.png",
         "title": "Hoger Lager",
         "timeMade": "1st period",   
         "description": "A game where you bet if dice roll higher than a said amount, if you win you get point, otherwise the bank gets them.",
@@ -24,7 +24,7 @@
         "ID": 2
     },
     {
-        "imageURL": "",
+        "imageURL": "./../img/bookflix.jpg",
         "title": "Bookflix",
         "timeMade": "Theme week #2",
         "description": "Netflix for books.. Made using HTML, CSS & JS with a python Flask backend and sqlite3 db.",
@@ -32,7 +32,7 @@
         "ID": 3
     },
     {
-        "imageURL": "",
+        "imageURL": "./../img/catalogue.jpg",
         "title": "Web Catalogus",
         "timeMade": "3rd period",
         "description": "A school project about clothing, simple as that.",
@@ -40,7 +40,7 @@
         "ID": 4
     },
     {
-        "imageURL": "",
+        "imageURL": "./../img/dashboard.svg",
         "title": "Dashboard",
         "timeMade": "4th period",
         "description": "A school project about dashboards, simpl- Welp, we're learning chart.js",
