@@ -3,7 +3,7 @@
         "imageURL": "./../img/escape_room.jpg",
         "title": "Escape Room",
         "timeMade": "Theme week #1",
-        "description": "Escape room game, made by me, Sulaiman Husain & Kaya Kegel, made using HTML canvas and an own \"engine\".",
+        "description": "Escape room game, made by me, Sulaiman Husain & Kaya Kegel, made using HTML canvas and an own \"engine\". Personally I didn't really learn anything new.",
         "url": "../projects/escape_room/",
         "ID": 0
     },
@@ -11,7 +11,7 @@
         "imageURL": "./../img/tictactoe.png",
         "title": "TicTacToe",
         "timeMade": "2nd period",
-        "description": "Simple TicTacToe game, made it with HTML, CSS and pure JS. We were supposed to work in groups, but everyone worked on their own project. Confoos..",
+        "description": "Simple TicTacToe game, made it with HTML, CSS and pure JS. We were supposed to work in groups, but everyone worked on their own project. Confoos.. Personally I didn't really learn anything new.",
         "url": "../projects/tic_tac_toe/",
         "ID": 1
     },
@@ -19,7 +19,7 @@
         "imageURL": "./../img/higher_lower.png",
         "title": "Hoger Lager",
         "timeMade": "1st period",   
-        "description": "A game where you bet if dice roll higher than a said amount, if you win you get point, otherwise the bank gets them.",
+        "description": "A game where you bet if dice roll higher than a said amount, if you win you get point, otherwise the bank gets them. Personally I didn't really learn anything new.",
         "url": "../projects/higher_or_lower/",
         "ID": 2
     },
@@ -27,7 +27,7 @@
         "imageURL": "./../img/bookflix.jpg",
         "title": "Bookflix",
         "timeMade": "Theme week #2",
-        "description": "Netflix for books.. Made using HTML, CSS & JS with a python Flask backend and sqlite3 db. This means, that this website requires a backend to be running, therefore I can not exactly show it right now, as I'm not running the server. Contact me <a href='profile.html'>here</a> for the source code.",
+        "description": "Netflix for books.. Made using HTML, CSS & JS with a python Flask backend and sqlite3 db. This means, that this website requires a backend to be running, therefore I can not exactly show it right now, as I'm not running the server. Contact me <a href='profile.html'>here</a> for the source code. As for the things I learned, I learned how to hash passwords and store them in sqlite.",
         "url": "../projects/Bookflix/",
         "ID": 3
     },
@@ -35,7 +35,7 @@
         "imageURL": "./../img/catalogue.jpg",
         "title": "Web Catalogus",
         "timeMade": "3rd period",
-        "description": "A school project about clothing, simple as that.",
+        "description": "A school project about clothing, simple as that. Personally I didn't really learn anything new.",
         "url": "../projects/catalogue/",
         "ID": 4
     },
